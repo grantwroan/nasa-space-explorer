@@ -300,3 +300,9 @@ margin-bottom: 10px;
 flex-direction: column;
 }
 }
+
+
+/* Fix: .modal.hidden must override .modal's display:flex */
+.modal.hidden {
+display: none;
+}
